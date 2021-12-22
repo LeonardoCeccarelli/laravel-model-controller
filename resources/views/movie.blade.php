@@ -7,5 +7,5 @@
 @section('title_page', 'Movie')
 
 @section('main_body')
-@dump($listMovies)
+    @include('partials.movie_container')
 @endsection
